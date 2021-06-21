@@ -9,10 +9,10 @@ body {
 }
 
 .navbar {
-
 font-size: 0.9rem;
 letter-spacing: .1rem;
 font-family:'Roboto', sans-serif;
+height: 120px;
 
 }
 
@@ -20,17 +20,70 @@ font-family:'Roboto', sans-serif;
     padding: .5rem;
 }
 
-.nav-link {
-    color: black !important;
-    border-bottom: white;
-   
+.nav-social {
+    padding: .5rem; 
+    color:rgb(202, 22, 22);   
+}
+
+.nav-item-social{
+    font-size: 1.2em;
+    padding: 5px;
+    border: red dashed 1px;
+    border-radius: 40px;
+    margin-right: 5px;
     
 }
 
-.nav-link:hover {
 
-    
+.nav-link {
+    color: black !important;
+    border-bottom: white;   
+}
+
+.nav-link:hover {    
     border-bottom: rgb(226, 20, 20) solid 2px;    
-    transition: border-color 0.5s ease-in;  
+    transition: border-color 0.5s ease-in;
+}
 
+.prueba {
+    background-color: rgb(241, 241, 241);
+}
+
+
+.descripcion {
+
+    font-size: 2.2em;
+    font-weight: 300;
+}
+
+.descripcion-larga {
+
+    font-weight: 300;
+
+}
+
+.prueba {
+
+    background-color: #eeeeee;
+}
+
+.buttons {  
+    display: flex;
+    font-weight: 300;
+    
+}
+
+.buttons a {
+    color: rgb(226, 20, 20);
+    margin-right: 2em;
+    font-weight: 400;
+     
+}
+
+.cotizar {
+
+    border: red dashed 1px;
+    border-radius: 40px;
+    justify-content: center;
+    padding: 5px 20px;
 }
