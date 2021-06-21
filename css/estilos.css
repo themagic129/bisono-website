@@ -4,3 +4,33 @@ body {
 }
   
 
+.navbar-brand img {
+    height: 3.2rem;
+}
+
+.navbar {
+
+font-size: 0.9rem;
+letter-spacing: .1rem;
+font-family:'Roboto', sans-serif;
+
+}
+
+.nav-item {
+    padding: .5rem;
+}
+
+.nav-link {
+    color: black !important;
+    border-bottom: white;
+   
+    
+}
+
+.nav-link:hover {
+
+    
+    border-bottom: rgb(226, 20, 20) solid 2px;    
+    transition: border-color 0.5s ease-in;  
+
+}
