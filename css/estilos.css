@@ -20,6 +20,7 @@ height: 120px;
     padding: .5rem;
 }
 
+
 .nav-social {
     padding: .5rem; 
     color:rgb(202, 22, 22);   
@@ -32,6 +33,35 @@ height: 120px;
     border-radius: 40px;
     margin-right: 5px;
     
+}
+
+.sobre-nosotros {
+
+    background-color: white;
+
+}
+
+.sobre-nosotros .container {
+    margin-top: 10px !important;
+}
+
+.sobre-nosotros img {
+    width: 700px;
+   
+}
+
+.nosotros-titulo {
+    margin-top: 9em;
+}
+
+.nosotros-titulo {
+    color: rgb(197, 11, 11);
+    font-family:'Roboto', sans-serif;
+}
+
+.nosotros-descripcion {
+    font-weight: 400;
+    font-size: 2.1em;
 }
 
 .logos-companias {
