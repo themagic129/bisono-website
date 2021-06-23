@@ -22,16 +22,30 @@ height: 120px;
 
 
 .nav-social {
-    padding: .5rem; 
-    color:rgb(202, 22, 22);   
+    padding: .5rem;
+    transition: 0.2s;
+    margin-left: 0.6em;
+    color:rgb(202, 22, 22) !important;
+    border: red 1px dashed;
+    border-radius: 40px;
+}
+
+.nav-item-social a {
+    text-decoration: none !important;
+
+}
+
+.nav-social:hover {
+    
+padding: .6rem;
+transition: 0.2s;
+
+
 }
 
 .nav-item-social{
     font-size: 1.2em;
-    padding: 5px;
-    border: red dashed 1px;
-    border-radius: 40px;
-    margin-right: 5px;
+    
     
 }
 
