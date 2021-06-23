@@ -43,6 +43,7 @@ height: 120px;
 
 .sobre-nosotros .container {
     margin-top: 10px !important;
+   
 }
 
 .sobre-nosotros img {
@@ -53,6 +54,31 @@ height: 120px;
 .nosotros-titulo {
     margin-top: 9em;
 }
+
+.btn-conocermas {
+   
+    color: white;  
+    border-radius: 100px;    
+    
+}
+
+.btn-conocermas a {
+    color: white !important;
+    text-decoration: none !important;
+    background-color: #D31821;
+    padding: 5px 40px 8px;
+    border-radius: 100px;
+    font-family:'Roboto', sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;    
+}
+
+.btn-conocermas a:hover {
+    background-color: #df656b;
+   
+}
+
+
 
 .nosotros-titulo {
     color: rgb(197, 11, 11);
@@ -114,17 +140,95 @@ height: 120px;
 
 
 
+
 .buttons a {
-    color: rgb(226, 20, 20);
+    color: rgb(226, 20, 20) !important;
     margin-right: 1em;
     font-weight: 400;
      
 }
 
 .cotizar {
-
+    text-decoration: none !important;
     border: red dashed 1px;
     border-radius: 40px;
     justify-content: center;
     padding: 5px 20px;
 }
+
+.nuestras-plantas {
+    background-color: #F6F6F8;
+    
+}
+
+.nuestras-plantas .container {
+    margin-top: -60px !important;
+}
+
+.titulo-plantas {
+    text-align: center;
+}
+
+.subtitulo-nuestras-plantas {
+    font-size: 1.8em;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.tarjeta{
+    min-width: 300px;
+    margin-left: 40px;
+  
+    
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 15em;
+    border-radius: 18px;
+    
+}
+
+.tarjeta-info {
+    position: relative;
+    text-align: center;
+    background-color: #F6F6F8;
+    text-align: center;
+    width: 80%;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: -40px;
+    padding: 20px;
+  }
+
+  .tarjeta-titulo {
+      font-size: 1.1em;
+  }
+
+  .tarjeta-descripcion {
+    
+      font-size: 0.8em;
+  }
+  
+  .tarjeta-info .buttons {
+      display: inline;
+  }
+
+  .tarjetas {
+      display: flex;
+      justify-content: center;
+      
+  }
+
+  @media (max-width: 700px) {
+
+    .tarjetas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 300px;
+        
+    }
+
+
+  }
