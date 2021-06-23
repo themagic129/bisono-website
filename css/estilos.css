@@ -16,6 +16,36 @@ font-family:'Roboto', sans-serif;
 
 }
 
+.contactos {
+    background-color:#163576;
+    color: white;
+    height: 200px;
+    
+
+}
+
+.card-contacto {
+   
+    width: 450px;
+    height: 150px;
+    border-radius: 20px;
+    margin: 10px;
+    border: rgb(185, 185, 185) 1px dashed;
+  
+}
+
+.tarjeta-contactos {
+    background-color: white;
+    display: flex;   
+    justify-content:space-evenly;
+    align-items: center;    
+    padding: 40px;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .nav-item {
     padding: .5rem;
 }
@@ -199,6 +229,7 @@ transition: 0.2s;
 
 .nuestras-plantas {
     background-color: #F6F6F8;
+    font-family:'Roboto', sans-serif;
     
 }
 
@@ -219,7 +250,7 @@ transition: 0.2s;
 .tarjeta{
     min-width: 300px;
     margin-left: 40px;
-  
+   
     
 }
 
@@ -240,6 +271,7 @@ transition: 0.2s;
     margin: auto;
     margin-top: -40px;
     padding: 20px;
+    font-family:'Roboto', sans-serif;
   }
 
   .tarjeta-titulo {
@@ -258,6 +290,7 @@ transition: 0.2s;
   .tarjetas {
       display: flex;
       justify-content: center;
+      margin-bottom: 40px;
       
   }
 
