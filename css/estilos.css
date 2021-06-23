@@ -19,7 +19,7 @@ font-family:'Roboto', sans-serif;
 .contactos {
     background-color:#163576;
     color: white;
-    height: 200px;
+    height: 250px;
     
 
 }
@@ -42,10 +42,10 @@ font-family:'Roboto', sans-serif;
     justify-content:space-evenly;
     align-items: center;    
     padding: 40px;
-    height: 200px;
+    height: 250px;
     border-radius: 20px;
     margin-top: 40px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
 }
 
 .title {
@@ -127,6 +127,31 @@ transition: 0.2s;
     margin-top: 9em;
 }
 
+.actualidad-titulo {
+    
+    color: #D5232B;
+    margin-top: 150px;
+    font-weight:500;
+    font-size: 1.2em;
+
+}
+
+.enviaremail, .llamar {
+    text-decoration: none !important;
+}
+
+
+
+.noticias-titulo {
+    font-weight: 400;
+
+   
+}
+
+.noticias {
+    background-color: white;
+}
+
 .btn-conocermas {
    
     color: white;  
@@ -155,6 +180,11 @@ transition: 0.2s;
 
 
 .nosotros-titulo {
+    color: rgb(197, 11, 11);
+    font-family:'Roboto', sans-serif;
+}
+
+.actualidad-titulo {
     color: rgb(197, 11, 11);
     font-family:'Roboto', sans-serif;
 }
