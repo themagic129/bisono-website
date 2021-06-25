@@ -290,7 +290,7 @@ mask-image: linear-gradient(to top, transparent 25%, black 75%);
 
 .hablemos-descripcion {
     font-weight: 400;
-    font-size: 1.3em;
+    font-size: 1.8em;
 }
 
 
@@ -593,7 +593,7 @@ input[type=text] {
 }
 
 .hablemos {
-    margin-top: -50px;
+    margin-top: -55px;
 }
 
 
