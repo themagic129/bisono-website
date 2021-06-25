@@ -532,6 +532,42 @@ mask-image: linear-gradient(to top, transparent 25%, black 75%);
       border-radius: 100px;
   }
 
+  .enviar-cv {
+      background-color: #F2F4FF;
+     
+  }
+
+  .enviar-cv .contenedor {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    
+  }
+
+  .enviar-cv .btn-enviarcv {
+      margin-right: 30px;
+  }
+
+  .btn-enviarcv a {
+      background-color: #E1E5F6;
+      padding: 10px 35px;
+      border-radius: 20px;
+      font-weight: 500;
+      font-size: 0.9em;
+      color: #013E6F;
+      text-decoration: none !important;
+  }
+
+  .enviar-cv .titulos {
+      margin-top: 20px;
+  }
+
+  .enviar-cv h5{ 
+      color:black;
+  }
+
   .perfil-persona .nombre {
       font-size: 1em;
   }
