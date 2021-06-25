@@ -542,9 +542,61 @@ mask-image: linear-gradient(to top, transparent 25%, black 75%);
     justify-items: center;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 20px;
     
   }
+
+  .contactanos {
+    background-color: white;
+  }
+  
+
+  .contactanos .contenedor {
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+.formulario .form {
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+}
+
+input[type=text] { 
+    
+    border-radius: 15px;
+    border: solid rgb(206, 206, 206) 0.2px;
+    
+
+
+}
+
+.hablemos .nosotros-parrafo {
+    font-size: 0.9em;
+    font-weight: 300;
+    margin-top: -15px;
+}
+
+.caja-texto {
+    margin-left: -20px;
+    margin-right: 30px;
+    
+}
+
+input[type=email] { 
+    
+    border-radius: 15px;
+    border: solid rgb(206, 206, 206) 0.2px;
+
+}
+
+
+label {
+    font-size: 0.8em;  
+}
+
 
   .enviar-cv .btn-enviarcv {
       margin-right: 30px;
