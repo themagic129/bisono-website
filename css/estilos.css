@@ -61,6 +61,29 @@ font-family:'Roboto', sans-serif;
     color: #000;
 }
 
+.suscribirse-novedades {
+    margin-top: 70px;
+    margin-left: 80px;
+   
+   
+}
+
+.suscribirse-novedades form {
+    margin-top: -7px;
+}
+
+.suscribirse-novedades .titulo {
+   
+    margin-bottom: 4px;
+}
+
+
+.suscribirse-novedades .texto {
+
+    font-weight: 300;
+    font-size: 0.8em;
+}
+
 .subtitle {
     font-weight: 400;
     color: rgb(129, 129, 129);
@@ -573,6 +596,7 @@ mask-image: linear-gradient(to top, transparent 25%, black 75%);
       display: flex;
       justify-content: center;
       align-items: center;
+      height: 400px;
   }
 
 .formulario .form {
@@ -589,8 +613,15 @@ input[type=text] {
     
     border-radius: 15px;
     border: solid rgb(206, 206, 206) 0.2px;
+    box-shadow: 0 2px 2px 0 rgba(196, 196, 196, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+
     
 }
+
+footer {
+    background-color: white;
+}
+
 
 .hablemos {
     margin-top: -55px;
@@ -608,12 +639,15 @@ input[type=text] {
     margin-right: 30px;
     margin-bottom: 25px;
     
+    
 }
 
 input[type=email] { 
     
     border-radius: 15px;
     border: solid rgb(206, 206, 206) 0.2px;
+    box-shadow: 0 2px 2px 0 rgba(196, 196, 196, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+
 
 }
 
@@ -622,6 +656,12 @@ label {
     font-size: 0.8em;  
 }
 
+footer .contenedor {
+    background-color: white;
+    border-top: rgb(230, 230, 230) dashed 1px;
+    display: flex;
+    justify-content: center;
+}
 
   .enviar-cv .btn-enviarcv {
       margin-right: 30px;
@@ -641,6 +681,106 @@ label {
       margin-top: 20px;
   }
 
+  .descripcion-sociales {
+      display: flex;
+      align-items: center;
+      margin-top: 30px;     
+      width: 420px;
+      border-right:#EFEFEF 1px solid;
+      
+      
+  }
+
+  .descripcion-sociales img{
+    width: 130px;
+    margin-top: -70px;
+}
+
+.menus-footer {
+    display: flex;
+    margin-left: 80px;
+    margin-top: 30px;
+    width: 420px;
+    border-right:#EFEFEF 1px solid;
+  
+    
+}
+
+
+
+.menus-footer ul{
+
+list-style: none;
+margin-top: 45px;
+font-size: 0.8em;
+margin-right: 80px;
+
+}
+
+.campo-email {
+    display: flex;
+   
+ 
+}
+
+.campo-email button {
+    border: none;
+    background-color: #D31821;
+    border-radius: 20px;
+    font-size: 0.8em;
+    color: white;
+    width: 120px;
+    height: 25px;
+    margin-left: -20px;
+}
+
+.menus-footer li {
+    margin-bottom: 8px;
+}
+
+.menus-footer h6 {
+    margin-bottom: 16px;
+}
+
+.contenedor .contenido{
+    display: flex;
+
+}
+
+  .redes-sociales ul {
+      list-style: none;
+      display: flex;
+      margin-left: -10px;
+      margin-top: 20px;
+      
+  }
+
+  .texto-empresa {
+    font-size: 0.8em;
+    font-weight: 300;
+    width: 300px;
+    margin-left: -115px;
+   
+  }
+
+  .redes-sociales a {
+  
+    text-decoration: none !important;
+    font-size: 0.8em;
+    color: rgb(202, 22, 22) !important;
+    border: rgb(202, 22, 22) dashed 1px!important;
+    padding: 6px 8.5px;
+    line-height: 20px;
+    border-radius: 50%;
+    text-align: center;  
+}
+
+
+  .redes-sociales li {
+  margin-left: 10px;
+}
+
+
   .enviar-cv h5{ 
       color:black;
   }
@@ -652,6 +792,20 @@ label {
   .rol {
       font-size: 0.8em;
       color: rgb(119, 119, 119);
+  }
+
+  .copyright-info {
+      font-size: 0.9em;
+      height: 60px;
+     background-color: #F6F6F6;     
+     margin-top: 20px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     padding: 10px 0px 0px;
+     color: rgb(119, 119, 119);;
+   
+
   }
 
   @media (max-width: 700px) {
