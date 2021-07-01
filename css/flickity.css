@@ -8,14 +8,15 @@
 body { font-family: sans-serif; }
 
 .gallery {
-  background: #EEE;
+  background: rgb(255, 255, 255);
 }
 
 .gallery-cell {
-  width: 20%;
-  height: 200px;
+  margin-top: 20px;
+  width: 8%;
+  height: 150px;
   margin-right: 10px;
-  background: #8C8;
+  background: rgb(253, 253, 253);
   counter-increment: gallery-cell;
 }
 
