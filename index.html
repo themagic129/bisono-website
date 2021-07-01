@@ -111,31 +111,47 @@
             </div>
         </div>
 
+        
+
         <!--caroussel-->
 
         <div class="caroussel">
             <!-- Flickity HTML init -->
             <div class="gallery js-flickity" data-flickity-options='{ "freeScroll": true, "wrapAround": true }'>
-                <img src="/galeria-caroussel/imagen12.png" alt="" class="gallery-cell">
-                <img src="/galeria-caroussel/imagen22.png" alt="" class="gallery-cell">
-                <img src="/galeria-caroussel/imagen26.png" alt="" class="gallery-cell">
-                <img src="/galeria-caroussel/imagen27.png" alt="" class="gallery-cell">
-                <img src="/galeria-caroussel/imagen28.png" alt="" class="gallery-cell">
+                <img src="/galeria-caroussel/imagen12.png" alt="hola" class="gallery-cell" data-bs-toggle="tooltip"
+                    data-bs-placement="top" title="Block de 8">
+                <img src="/galeria-caroussel/imagen22.png" alt="" class="gallery-cell" data-bs-toggle="tooltip" data-bs-placement="top"
+                    title="Block de 12">
+                <img src="/galeria-caroussel/imagen26.png" alt="" class="gallery-cell data-bs-toggle=" tooltip" data-bs-placement="top"
+                    title="Block de 14">
+                <img src="/galeria-caroussel/imagen27.png" alt="" class="gallery-cell" data-bs-toggle="tooltip" data-bs-placement="top"
+                    title="Otro articulo">
+                <img src="/galeria-caroussel/imagen28.png" alt="" class="gallery-cell" data-bs-toggle="tooltip" data-bs-placement="top"
+                    title="Otro articulo">
                 <img src="/galeria-caroussel/imagen29.png"
-                    alt="" class="gallery-cell">
+                    alt="" class="gallery-cell" data-bs-toggle="tooltip" data-bs-placement="top"
+                    title="Otro articulo">
                 
                 <img src="/galeria-caroussel/imagen30.png"
-                    alt="" class="gallery-cell">
-                <img src="/galeria-caroussel/imagen12.png" alt="" class="gallery-cell">
-                <img src="/galeria-caroussel/imagen22.png" alt="" class="gallery-cell">
-                <img src="/galeria-caroussel/imagen26.png" alt="" class="gallery-cell">
-                <img src="/galeria-caroussel/imagen27.png" alt="" class="gallery-cell">
-                <img src="/galeria-caroussel/imagen28.png" alt="" class="gallery-cell">
+                    alt="" class="gallery-cell" data-bs-toggle="tooltip" data-bs-placement="top"
+                    title="Otro articulo">
+                <img src="/galeria-caroussel/imagen12.png" alt="" class="gallery-cell" data-bs-toggle="tooltip" data-bs-placement="top"
+                title="Otro articulo">
+                <img src="/galeria-caroussel/imagen22.png" alt="" class="gallery-cell" data-bs-toggle="tooltip" data-bs-placement="top"
+                title="Otro articulo">
+                <img src="/galeria-caroussel/imagen26.png" alt="" class="gallery-cell" data-bs-toggle="tooltip" data-bs-placement="top"
+                title="Otro articulo">
+                <img src="/galeria-caroussel/imagen27.png" alt="" class="gallery-cell" data-bs-toggle="tooltip" data-bs-placement="top"
+                title="Otro articulo">
+                <img src="/galeria-caroussel/imagen28.png" alt="" class="gallery-cell"data-bs-toggle="tooltip" data-bs-placement="top"
+                title="Otro articulo">
                 <img src="/galeria-caroussel/imagen29.png"
-                    alt="" class="gallery-cell">
+                    alt="" class="gallery-cell" data-bs-toggle="tooltip" data-bs-placement="top"
+                    title="Otro articulo">
                 
                 <img src="/galeria-caroussel/imagen30.png"
-                    alt="" class="gallery-cell">
+                    alt="" class="gallery-cell" data-bs-toggle="tooltip" data-bs-placement="top"
+                    title="Otro articulo">
         
             </div>
         </div>
@@ -599,7 +615,12 @@
  </div>
              
 
-
+<script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+</script>
 
     <script src="js/bootstrap.min.js"></script>
 

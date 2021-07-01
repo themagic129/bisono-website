@@ -427,6 +427,13 @@ mask-image: linear-gradient(to top, transparent 25%, black 75%);
   
 }
 
+.hvrbox_background {
+    width: 400px;
+    height: 250px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
 
 .video {
     background-color: rgb(65, 65, 65);
