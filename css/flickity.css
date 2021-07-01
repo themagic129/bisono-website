@@ -18,6 +18,7 @@ body { font-family: sans-serif; }
   margin-right: 10px;
   background: rgb(253, 253, 253);
   counter-increment: gallery-cell;
+  
 }
 
 /* cell number */
