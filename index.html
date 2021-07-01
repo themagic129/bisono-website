@@ -16,7 +16,9 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
-
+<link rel="stylesheet" href="css/flickity.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
@@ -31,7 +33,7 @@
         <a href="index.html" class="navbar-brand ml-auto"><img src="img/logo-bisono.png" alt=""></a>
 
         <!--Contenido del navbar-->
-        <div class="container">
+        <div class="container-fluid">
             <!--Boton hamburguer responsivo-->
 
 
@@ -53,6 +55,12 @@
                 <ul class="navbar-nav">
                     <li class="nav-item-social"><a href="#" class="nav-social"><i class="fab fa-facebook"></i></a></li>
                     <li class="nav-item-social"><a href="#" class="nav-social"><i class="fab fa-instagram"></i></i></a>
+                        <li class="nav-item-social"><a href="#" class="nav-social"><i class="fab fa-youtube"></i></i></a>
+                        <li>
+                            <div class="btn-cotizar">
+                                <a href="#"><span class="cantidad-cotizar">2</span> Cotizar</a>
+                            </div>
+                        </li>
                     </li>
 
                 </ul>
@@ -91,7 +99,15 @@
 
                 </div>
 
-                <div class="col">
+                <div class="col d-flex col-lg-6" style="margin-left: -130px;">
+                
+                    <img src="img/Grupo 846.svg" alt="">
+                    <div class="col">
+                        <div class="video">
+                        
+                        </div>
+                        
+                        </div>
 
                 </div>
             </div>
@@ -99,8 +115,26 @@
 
         <!--caroussel-->
 
-        <div class="row">
-            <img src="img/placeholder.png" alt="">
+        <div class="caroussel">
+            <!-- Flickity HTML init -->
+            <div class="gallery js-flickity" data-flickity-options='{ "freeScroll": true, "wrapAround": true }'>
+                <div class="gallery-cell"></div>
+                <div class="gallery-cell"></div>
+                <div class="gallery-cell"></div>
+                <div class="gallery-cell"></div>
+                <div class="gallery-cell"></div>
+                <div class="gallery-cell"></div>
+                <div class="gallery-cell"></div>
+                <div class="gallery-cell"></div>
+                <div class="gallery-cell"></div>
+                <div class="gallery-cell"></div>
+                <div class="gallery-cell"></div>
+                <div class="gallery-cell"></div>
+                <div class="gallery-cell"></div>
+                <div class="gallery-cell"></div>
+                <div class="gallery-cell"></div>
+        
+            </div>
         </div>
         <!--Fin Carousel-->
 
@@ -262,9 +296,9 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="col" style="margin-top: 30px;">
                         <div class="buttons">
-                            <p><a class="cotizar" href="#">Realizar cotización</a></p>
+                            <p><a class="ver-mas" href="#">Ver más</a></p>
                                     
             
                                 </div>
@@ -561,7 +595,6 @@
 
  </div>
              
-
 
 
 
