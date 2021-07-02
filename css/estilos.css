@@ -17,6 +17,8 @@ font-family:'Roboto', sans-serif;
 
 }
 
+
+
 .contactos {
     background-color:#163576;
     color: white;
@@ -289,12 +291,24 @@ mask-image: linear-gradient(to top, transparent 25%, black 75%);
     flex-direction: row;
 }
 
-.btn-conocermas {
-   
-    color: white;  
-    border-radius: 100px;    
-    
+.btn-conocermas a {
+    color: white !important;
+    text-decoration: none !important;
+    background-color: #D31821;
+    transition: 0.5s;
+    padding: 8px 20px;
+    border-radius: 100px;
+    font-family:'Roboto', sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;    
 }
+
+.btn-conocermas a:hover {
+    background-color: #df656b;
+    transition: 0.5s;
+   
+}
+
 
 .btn-cotizar {
     margin-left: 30px;
@@ -343,9 +357,26 @@ mask-image: linear-gradient(to top, transparent 25%, black 75%);
     font-family:'Roboto', sans-serif;
 }
 
+.detalle-sobrenosotros {
+    background-image: url("/img/Grupo2761.svg");
+    background-repeat: no-repeat, repeat;
+    background-size: 230px;
+    background-position-x: 200px;
+    background-position-y: 50px;
+}
+
+.contenedor-collage {
+    background-image: url("/img/Grupo870.svg");
+    background-repeat: no-repeat, repeat;
+    background-size: 70px;
+    background-position-x: 130px;
+    background-position-y: 150px;
+}
+
 .nosotros-descripcion {
     font-weight: 400;
     font-size: 2.1em;
+   
 }
 
 .logos-companias {
@@ -364,6 +395,11 @@ mask-image: linear-gradient(to top, transparent 25%, black 75%);
 }
 
 .nav-link:hover {    
+    border-bottom: rgb(226, 20, 20) solid 2px;    
+    transition: border-color 0.5s ease-in;
+}
+
+.menu-activo {
     border-bottom: rgb(226, 20, 20) solid 2px;    
     transition: border-color 0.5s ease-in;
 }
@@ -427,13 +463,6 @@ mask-image: linear-gradient(to top, transparent 25%, black 75%);
   
 }
 
-.hvrbox_background {
-    width: 400px;
-    height: 250px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
 
 .video {
     background-color: rgb(65, 65, 65);

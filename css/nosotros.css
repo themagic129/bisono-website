@@ -1,0 +1,45 @@
+body {
+    overflow-x: hidden;
+    font-family:'Roboto', sans-serif;
+}
+
+
+.header {
+    height: 130px;
+    display: flex;
+    background-color: #22307B;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.header h3 {
+    margin-top: 40px;
+    color: white;
+    
+}
+
+.collage img {
+    width: 700px;
+    margin-top: 20px;
+}
+
+.historia .contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+}
+
+.nuestra-historia {
+width: 700px;
+margin-top: -80px;
+}
+
+
+.historia-parrafo {
+    font-weight: 300;
+    color: #919191;
+}
