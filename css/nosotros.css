@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body {
     overflow-x: hidden;
     font-family:'Roboto', sans-serif;
@@ -42,4 +44,57 @@ margin-top: -80px;
 .historia-parrafo {
     font-weight: 300;
     color: #919191;
+}
+
+.mapa-historia .contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta {
+    width: 500px;
+    height: 171px;
+    border-radius: 20px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #0000000D;
+    padding: 30px;
+}
+
+.tarjeta .titulo {
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.tarjeta .parrafo {
+    color: #919191;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.tarjeta .info {
+    border-left:#D31821 solid 3px;
+    padding: 0px 20px 8px;
+    margin-left: -10px;
+}
+
+.inicio-map {
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: #22307B;
+    border-radius: 100px;
+    padding: 40px;
+
 }
