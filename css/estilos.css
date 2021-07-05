@@ -452,7 +452,7 @@ mask-image: linear-gradient(to top, transparent 25%, black 75%);
     transition: 0.5s;
 }
 
-.ver-mas {
+.ver-mas{
     text-decoration: none !important;
     border: red dashed 1px;
     border-radius: 40px;
