@@ -8,7 +8,7 @@
 body { font-family: sans-serif; }
 
 .gallery {
-  background: rgb(255, 255, 255) ;
+  background: #F2F2F2; ;
   
 }
 
@@ -18,7 +18,7 @@ body { font-family: sans-serif; }
   width: 8%;
   height: 150px;
   margin-right: 10px;
-  background: rgb(253, 253, 253);
+  background:#F2F2F2;;
   counter-increment: gallery-cell;
   
 }
@@ -31,4 +31,20 @@ body { font-family: sans-serif; }
   line-height: 200px;
   font-size: 80px;
   color: white;
+}
+
+@media (max-width: 600px){
+
+  .gallery-cell {
+  
+    margin-top: 10px;
+    width: 30%;
+    height: 150px;
+    margin-right: 10px;
+    background: rgb(253, 253, 253);
+    counter-increment: gallery-cell;
+    
+  }
+
+
 }

@@ -130,16 +130,18 @@ transition: 0.2s;
 
 }
 
-.sobre-nosotros .container {
-    margin-top: 10px !important;
+.sobre-nosotros .contenedor {
+    margin-top: 10px;
     display: flex;
-    flex-direction: row;   
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
    
    
 }
 
 .detalle-sobrenosotros {
-    min-width: 400px;
+    max-width: 400px;
 }
 
 .sobre-nosotros img {
@@ -360,7 +362,7 @@ mask-image: linear-gradient(to top, transparent 25%, black 75%);
     background-image: url("/img/Grupo2761.svg");
     background-repeat: no-repeat, repeat;
     background-size: 230px;
-    background-position-x: 200px;
+    background-position-x: 170px;
     background-position-y: 50px;
 }
 
@@ -370,6 +372,7 @@ mask-image: linear-gradient(to top, transparent 25%, black 75%);
     background-size: 70px;
     background-position-x: 130px;
     background-position-y: 150px;
+    
 }
 
 .nosotros-descripcion {
