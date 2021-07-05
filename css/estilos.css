@@ -1,20 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     overflow-x: hidden;
     font-family:'Roboto', sans-serif;
 }
-  
+
 
 .navbar-brand img {
-    height: 3.2rem;
-    margin-left: 223px;
-}
-
-.navbar {
-font-size: 0.9rem;
-letter-spacing: .1rem;
-font-family:'Roboto', sans-serif;
-
-
+    height: 60px;
+    margin-left: 60px;
 }
 
 
@@ -24,8 +20,8 @@ font-family:'Roboto', sans-serif;
     color: white;
     height: 250px;
     
-
 }
+
 
 .card-contacto {
    
@@ -93,7 +89,7 @@ font-family:'Roboto', sans-serif;
 }
 
 .nav-item {
-    padding: .5rem;
+   margin-top: -5px;
 }
 
 
@@ -311,8 +307,10 @@ mask-image: linear-gradient(to top, transparent 25%, black 75%);
 
 
 .btn-cotizar {
-    margin-left: 30px;
+    margin-left: 80px;
     margin-right: 60px;
+    margin-top: -30px;
+    
 }
 
 .btn-cotizar a {
@@ -323,14 +321,15 @@ mask-image: linear-gradient(to top, transparent 25%, black 75%);
     padding: 8px 20px;
     border-radius: 100px;
     font-family:'Roboto', sans-serif;
-    font-size: 0.9em;
-    font-weight: bold;    
+    font-size: 0.8em;
+    font-weight: 500;
 }
 
 .cantidad-cotizar {
     background-color: #DF575D;
     padding: 2px 6px 2px;
     border-radius: 50px;
+    font-size: 0.8em;
 }
 
 .btn-cotizar a:hover {
@@ -385,6 +384,7 @@ mask-image: linear-gradient(to top, transparent 25%, black 75%);
 }
 
 .logo-compania {
+    margin-top: 40px;
     width: 200px;
 }
 
@@ -466,11 +466,11 @@ mask-image: linear-gradient(to top, transparent 25%, black 75%);
 
 .video {
     background-color: rgb(65, 65, 65);
-    width: 380px;
+    width: 400px;
     height: 200px;
     margin-top: 100px;
     border-radius: 20px;
-    margin-left: 60px;
+    margin-left: 100px;
 
 }
 
@@ -653,10 +653,11 @@ mask-image: linear-gradient(to top, transparent 25%, black 75%);
 
   .enviar-cv .contenedor {
     display: flex;
+    height: 150px;
     justify-items: center;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    
     
   }
 
@@ -871,7 +872,7 @@ margin-right: 80px;
   
   .copyright-info {
       font-size: 0.9em;
-      height: 60px;
+     height: 60px;
      background-color: #F6F6F6;     
      margin-top: 20px;
      display: flex;
@@ -893,5 +894,14 @@ margin-right: 80px;
         
     }
 
+       
+}
 
-  }
+@media (max-width: 800px){
+    .navbar-brand img {
+        
+        margin-left: 0px;
+    }
+    
+}
+
