@@ -32,12 +32,48 @@ body {
     border-radius: 15px;
     background: transparent linear-gradient(79deg, #8980CA 0%, #4C437D 100%) 0% 0% no-repeat padding-box;
     width: 480px;
-    height: 85px;
+    height: 80px;
     margin: 0px -150px 0px;
     margin-right: 10px;
     margin-left: 10px;
+    font-family:'Roboto', sans-serif;
     
 }
+
+.bloque-servicio2 {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    padding: 20px 20px 20px;
+    color: white;
+    border-radius: 15px;
+    background: transparent linear-gradient(99deg, #DECBA4 0%, #3E5151 100%) 0% 0% no-repeat padding-box;
+    width: 480px;
+    height: 80px;
+    margin: 0px -150px 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family:'Roboto', sans-serif;
+    
+}
+
+.bloque-servicio3 {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    padding: 20px 20px 20px;
+    color: white;
+    border-radius: 15px;
+    background: transparent linear-gradient(99deg, #45ABC5 0%, #76B991 100%) 0% 0% no-repeat padding-box;
+    width: 480px;
+    height: 80px;
+    margin: 0px -150px 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family:'Roboto', sans-serif;
+    
+}
+
 
 .bloque-servicio h3 {
     font-weight: 700;
@@ -45,17 +81,40 @@ body {
     margin-right: 120px;
 }
 
+.bloque-servicio2 h3 {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-right: 120px;
+}
+
+.bloque-servicio3 h3 {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-right: 120px;
+}
+
+.servicios {
+    display: flex;
+    justify-content: center;
+}
+
 .servicios .contenedor {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
     margin-top: 50px;
-    margin-right: 80px;
-    margin-left: 80px;
+ 
 }
 
 .bloque-servicio img {
-   width: 100px;
+   width: 70px;
 }
+
+.bloque-servicio3 img {
+    width: 70px;
+    margin-left:10px;
+ }
 
 
 
@@ -238,6 +297,14 @@ margin-top: -80px;
    .bloque-servicio {
        margin-bottom: 5px;
    }
+
+   .bloque-servicio2 {
+    margin-bottom: 5px;
+}
+
+.bloque-servicio3 {
+    margin-bottom: 5px;
+}
 
 }
 
