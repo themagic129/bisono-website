@@ -139,6 +139,10 @@ body {
     border-spacing: 30px 30px;
 }
 
+.tarjeta-novedad2 {
+
+}
+
 .tarjeta-producto {
     height: 392px;
     width: 312px;
@@ -350,13 +354,25 @@ margin-top: -80px;
 }
 
 .tarjeta-novedad img{
-    width: 430px;
+    width: 400px;
     border-radius: 20px;
 }
 
 .tarjeta-novedad {
     width: 458px;
 }
+
+.tarjeta-novedad2 img{
+    width: 390px;
+    border-radius: 20px;
+}
+
+.tarjeta-novedad2 {
+    width: 360px;
+    margin-right: 32px;
+}
+
+
 
 .novedades .titulo {
     font-weight: 600;
@@ -390,3 +406,34 @@ margin-top: -80px;
 
 }
 
+.verproductos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #FCF4F4;
+    transition: 0.5s;
+    height: 392px;
+    width: 312px;
+    border-radius: 25px;
+}
+
+a {
+    text-decoration: none !important;
+    color: #D31821;
+}
+
+.verproductos i {
+    font-size: 4em;
+    font-weight: 100;
+    margin-bottom: 25px;
+    color: #D31821;
+}
+
+.verproductos:hover {
+    background-color: #f8eeee;
+    transition: 0.5s;
+    color: #e2464e;
+
+}
