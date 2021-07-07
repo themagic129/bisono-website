@@ -308,3 +308,85 @@ margin-top: -80px;
 
 }
 
+
+/* Estilos sostenibilidad *************************/
+
+.publicacion {  
+    display: flex;
+    justify-content: center;
+
+}
+
+.fecha-publicacion {
+  margin-left: -20px;
+}
+
+.titulo-publicacion {
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.publicacion .contenedor {
+    margin-left: -300px;
+    width: 700px;
+    height: 1100px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px 30px 30px;
+    border-radius: 25px;
+    margin-top: -70px;
+}
+
+.publicacion img {
+    width: 100%;
+    border-radius: 25px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.publicacion .contenedor p{
+    font-weight: 200;
+    font-size: 1em;
+    color: grey;
+}
+
+.tarjeta-novedad img{
+    width: 430px;
+    border-radius: 20px;
+}
+
+.tarjeta-novedad {
+    width: 458px;
+}
+
+.novedades .titulo {
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    padding: 5px 10px 0px;
+    border-left: #D31821 solid 3px;
+    margin-left: 5px;
+}
+
+.titulo-noticia {
+    margin-top: 40px;
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-bottom: 60px;
+   
+}
+
+.contenedor-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 360px;
+    
+}
+
+.novedades {
+    margin-top: -5px;
+    margin-left: 110px;
+
+}
+
