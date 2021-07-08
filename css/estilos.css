@@ -158,12 +158,20 @@ transition: 0.2s;
 .actualidad-titulo {
     
     color: #D5232B;
-    margin-top: 10px;
+    margin-top: -80px;
     font-weight:500;
     font-size: 1.2em;
 
 }
 
+.actualidad-titulo-noticias {
+    
+    color: #D5232B;
+    margin-top: 20px;
+    font-weight:600;
+    font-size: 1.2em;
+
+}
 
 
 
@@ -665,8 +673,7 @@ mask-image: linear-gradient(to top, transparent 25%, black 75%);
 
   .testimonios .contenedor {
       display: flex;
-      justify-content: center;
-      align-items: center;
+      justify-content: space-evenly;      
       text-align: center;
       margin-top: 0px;
   }
@@ -680,13 +687,22 @@ mask-image: linear-gradient(to top, transparent 25%, black 75%);
      
   }
 
+  
+
 
   .testimonios-titulos {
-      margin-top: 50px;
+      margin-top: 120px;
       margin-bottom: 50px;
+      margin-left: -200px;
+      margin-right: -200px;
+     
   }
 
-  
+ .img-bg img{
+     margin-top: 80px;
+     width: 300px;
+ }
+
 
   .tarjeta-testimonio {      
       width: 670px;
