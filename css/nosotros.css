@@ -446,13 +446,14 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 590px;
+    height: 400px;
     width:1492px;
     background-color: white;
     margin-top: 50px;
     box-shadow: 0px -10px 10px #00000008;
     border-radius: 30px;
 }
+
 
 .contenedor-trabaja {
 background: transparent linear-gradient(180deg, #ECECEC 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
@@ -463,7 +464,7 @@ align-items: center;
 
 .formulario-trabaja {
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 .campos-texto {
@@ -524,3 +525,9 @@ padding: 10px;
 }
 
 
+.hablemos-contactos {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+}

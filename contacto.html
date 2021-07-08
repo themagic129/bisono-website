@@ -26,7 +26,7 @@
 
     <style>
         input[type="text"] {
-            width: 400px;
+            width: 300px;
             height: 35px;
         }
     </style>
@@ -93,57 +93,108 @@
 
             <div class="formulario-contacto">
 
-                <div class="titulo" style="margin-top: 280px;">Únete a nuestro equipo</div>
-                <p class="texto-envia">Envía tu CV junto a una descripción de tu experiencia y habilidades, nuestro
-                    equipo se pondrá en contacto contigo</p>
+                <div class="contenedor-contactanos" style="display: flex;">
 
-                <form action="" class="formulario-trabaja">
+                    <form action="" style="display: flex;">
 
-                    <div class="campos-texto">
-                        <label for="nombre" style="display: block; margin-left: -275px; ">Nombre completo</label>
-                        <input type="text" id="nombre">
+                        <div class="campos-texto" style="display: flex; flex-direction: column;">
 
-                        <label for="nombre" style="display: block; margin-left: -275px;">Nombre completo</label>
-                        <input type="text" id="nombre">
+                            <label for="nombre" style="text-align: left;">Tu nombre</label>
+                            <input type="text" id="nombre">
 
-                        <label for="nombre" style="display: block; margin-left: -275px;">Nombre completo</label>
-                        <input type="text" id="nombre">
+                            <label for="correo" style="text-align: left;">Correo electrónico</label>
+                            <input type="text" id="correo">
 
+                            <div class="buttons text-nowrap" style="margin-top: 40px;">
+                                <p><a class="enviar-mensaje-contactos" href="#">Enviar mensaje</a></p>
 
-                    </div>
-
-                    <div class="caja-texto">
-                        <label for="msg" style="display: block; margin-left: -410px;">Mensaje</label>
-                        <textarea name="mensaje" id="msg" cols="50" rows="4"
-                            style="border-radius: 10px; border: grey solid 0.5px; border: solid rgb(206, 206, 206) 0.2px;     box-shadow: 0 2px 2px 0 rgba(196, 196, 196, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        "></textarea>
-                        <div class="cargar-cv">
-
-                            <div class="titulos-carga">
-                                <h3 class="titulo-cargar">Arrastra y suelta aqui tu CV</h3>
-                                <p class="texto-cargar">Se admiten los formatos PDF o DOCX</p>
                             </div>
 
-                            <div class="boton-carga">
-                                <div class="btn-enviarcv text-nowrap"><a href="#">Click para explorar</a></div>
-                            </div>
+
                         </div>
-                        
-                    </div>
 
-                    
+                        <div class="caja-texto" style="margin-left: -460px;">
+                            <label for="msg" style="display: block; text-align: left;">Mensaje</label>
+                            <textarea name="mensaje" id="msg" cols="40" rows="5"
+                                style="border-radius: 10px; border: grey solid 0.5px; border: solid rgb(206, 206, 206) 0.2px;     box-shadow: 0 2px 2px 0 rgba(196, 196, 196, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            "></textarea>
+                        </div>
 
-                </form>
-                <div class="btn-enviardatos">
-                    <div class="buttons text-nowrap" style="margin-top: 30px;">
-                        <p><a class="enviar-mensaje" href="#" style="font-family: 'Poppins', sans-serif;">Enviar mis
-                                datos</a></p>
+
+                    </form>
+
+                    <div class="hablemos-contactos" style="margin-top: -100px; margin-left: 30px;">
+
+                        <h6 class="nosotros-titulo" style="font-size: 0.8em;">HABLEMOS</h6>
+                        <p class="hablemos-descripcion" style="font-size: 2em;">Lorem ipsum dolor, <br> conseing <span
+                                style="font-weight: 800;">elitr, sed diam<span></span></p>
+                        <p class="nosotros-parrafo" style="width: 400px;">Lorem ipsum dolor sit amet consectetur
+                            <br>adipisicing elit.
+                            Accusamus,
+                            deserunt! Suscipit commodi error numquam? Maiores.
+                        </p>
+
+
                     </div>
                 </div>
-                
+
+
             </div>
 
-        
+
+
+        </div>
+
+
+
+        <div class="row contactos" style="margin-top: px;">
+
+            <div class="container text-center mt-4">
+                <div class="col">
+
+                    <h5>Siempre estamos a su disposición</h5>
+                    <p style="font-size: 0.8em; font-weight: 300; color: rgb(202, 202, 202);">LABORAMOS DE 7:30 AM HASTA
+                        LAS 6:00 PM</p>
+                    <div class="tarjeta-contactos">
+
+                        <div class="row">
+                            <div class="col">
+                                <a href="tel:8095318330" class="llamar">
+                                    <div class="card-contacto">
+                                        <div class="contacto-title text-left ml-3">
+                                            <h1 class="title">Llámanos ahora</h1>
+                                            <p class="subtitle">Teléfono</p>
+                                            <h1 class="contact">+1(809) 531 8330</h1>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="col">
+                                <a href="mailto:email@example.com" class="enviaremail">
+                                    <div class="card-contacto">
+                                        <div class="contacto-title text-left ml-3">
+                                            <h1 class="title">Escríbenos ya</h1>
+                                            <p class="subtitle">Correo electrónico</p>
+                                            <h1 class="contact" style="font-size: 1.1em !important;">
+                                                INFO@INDUSTRIASBISONO.COM</h1>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+
+            </div>
+
+        </div>
 
         </div>
 
@@ -166,7 +217,7 @@
 
 
     <footer>
-        <div class="contenedor" style="margin-top: 200px;">
+        <div class="contenedor" style="margin-top: 150px;">
 
             <div class="contenido">
                 <div class="descripcion-sociales">

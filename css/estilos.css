@@ -548,6 +548,16 @@ mask-image: linear-gradient(to top, transparent 25%, black 75%);
     transition: 0.5s;
 }
 
+.enviar-mensaje-contactos {
+    text-decoration: none !important;
+    border: red dashed 1px;
+    border-radius: 40px;
+    justify-content: center;
+    padding: 10px 300px;   
+    transition: 0.5s;
+}
+
+
 .enviar-mensaje:hover {
   background-color: rgb(250, 250, 250);
 }
