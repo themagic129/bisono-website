@@ -444,6 +444,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
     height: 590px;
     width:1492px;
@@ -457,6 +458,7 @@ a {
 background: transparent linear-gradient(180deg, #ECECEC 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
 display: flex;
 justify-content: center;
+align-items: center;
 }
 
 .formulario-trabaja {
