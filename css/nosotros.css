@@ -245,9 +245,20 @@ margin-top: -80px;
 .mapa {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .tarjeta {
+    width: 500px;
+    height: 171px;
+    border-radius: 20px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #0000000D;
+    padding: 30px;
+}
+
+.tarjeta2 {
     width: 500px;
     height: 171px;
     border-radius: 20px;
@@ -261,8 +272,19 @@ margin-top: -80px;
     font-family: 'Poppins', sans-serif;
     
 }
+.tarjeta2 .titulo2 {
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    
+}
 
 .tarjeta .parrafo {
+    color: #919191;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.tarjeta2 .parrafo2 {
     color: #919191;
     font-family: 'Roboto', sans-serif;
     
@@ -272,6 +294,106 @@ margin-top: -80px;
     border-left:#D31821 solid 3px;
     padding: 0px 20px 8px;
     margin-left: -10px;
+}
+
+
+.tarjeta2 .info2 {
+    border-right:#D31821 solid 3px;
+    padding: 0px 20px 8px;
+    margin-left: -10px;
+}
+
+.info-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 420px;
+    margin-top: 20px;
+    padding: 0px 0px 180px;
+    width: 1200px;
+    background-image: url("/img/grupo2220.svg");
+    background-repeat: no-repeat, repeat;
+    background-size: 220px;
+    background-position-x: 800px;
+    background-position-y: 100px;
+}
+
+.info-group2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -450px;
+    margin-top: -280px;
+    padding: 120px 0px 120px;
+    width: 1200px;
+    background-image: url("/img/grupo2208.svg");
+    background-repeat: no-repeat, repeat;
+    background-size: 220px;
+    background-position-x: 200px;
+    background-position-y: 20px;
+}
+
+
+.mapa-historia .info-group:nth-child(3) {
+
+    margin-top: -100px;
+
+}
+
+.mapa-historia .info-group:nth-child(5) {
+
+    margin-top: -100px;
+
+}
+
+
+.year h3 {
+       
+    font-weight: 600;
+    color: #22307B;
+
+}
+
+.year2 h3 {
+       
+    font-weight: 600;
+    color: #22307B;
+    margin-left: 30px;
+
+}
+
+.circle {   
+  
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    background-color: #D31821;
+    border-radius: 100px;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.circle2 {   
+  
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    background-color: #D31821;
+    border-radius: 100px;
+    padding: 10px;
+    margin-left: 40px;
+}
+
+.circle-end {   
+  
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    background-color: #22307B;
+    border-radius: 100px;
+    padding: 10px;
+    margin-left: -8px;
+    margin-top: -120px;
+    margin-bottom: 150px;
+
+   
 }
 
 .inicio-map {
