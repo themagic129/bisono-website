@@ -14,7 +14,7 @@ body {
     display: flex;    
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, #3204fdba, #5007facc), url("/img/DSC_0043.jpg") no-repeat top center;
+    background: linear-gradient(to right, #3204fdba, #5007facc), url("/img/bgheader.jpg") no-repeat top center;
     background-position: 3px;
     background-size: 250vh;
     background-position-y: 10;
