@@ -7,6 +7,9 @@ body {
   
 }
 
+textarea {
+    resize: none !important;
+  }
 
 .header {
     height: 130px;
