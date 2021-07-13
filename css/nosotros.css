@@ -17,11 +17,13 @@ textarea {
     display: flex;    
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, #3204fdba, #5007facc), url("/img/bgheader.jpg") no-repeat top center;
+    background: linear-gradient(to left, #22307B, #2402bdba), url("../img/bgheader.jpg") no-repeat top center;    
+    background-color:#163576;
     background-position: 3px;
     background-size: 250vh;
     background-position-y: 10;
     background-position-x: -400px;
+    font-family: 'Poppins', sans-serif;
 
 }
 
