@@ -40,6 +40,18 @@ body {
     
 }
 
+.contactos .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactos .contenedor h5{
+   margin-top: 20px;
+}
+
+
 .general {
     display: flex;
     align-items: center;
@@ -210,8 +222,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-   
+    align-items: center; 
    
 }
 
@@ -222,10 +233,6 @@ body {
 .sobre-nosotros img {
     width: 700px;
    
-}
-
-.nosotros-titulo {
-    margin-top: 9em;
 }
 
 .actualidad-titulo {
@@ -372,6 +379,10 @@ mask-image: linear-gradient(to top, transparent 25%, black 75%);
 
 .noticias {
     background-color: white;
+    
+}
+
+.noticias .contenedor {
     
 }
 
@@ -667,27 +678,30 @@ textarea {
 }
 
 .btn-explorar:hover {
-    font-size: 1.05em;
-    transition: 0.5s;
+  color: rgb(182, 18, 18) !important;
 }
 
 .cotizar:hover {
-    padding: 6px 22px;
-    transition: 0.5s;
+    color: rgb(182, 18, 18) !important;
 }
 
 .nuestras-plantas {
     background-color: #F6F6F8;
-    font-family:'Roboto', sans-serif;
+    font-family:'Roboto', sans-serif;   
     
 }
 
-.nuestras-plantas .container {
-    margin-top: -60px !important;
+.nuestras-plantas .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+
 
 .titulo-plantas {
     text-align: center;
+   
 }
 
 .subtitulo-nuestras-plantas {
@@ -698,13 +712,16 @@ textarea {
 
 .tarjeta{
     min-width: 300px;
-    margin-left: 40px;
-   
+    margin: 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
     
 }
 
 .tarjeta img {
-    width: 100%;
+    width: 350px;
     height: 15em;
     border-radius: 18px;
     
@@ -739,7 +756,7 @@ textarea {
   .tarjetas {
       display: flex;
       justify-content: center;
-      margin-bottom: 40px;
+   
       
   }
 
@@ -1089,12 +1106,17 @@ font: normal normal normal 16px/25px Roboto;
 
   }
 
+  .dummy-noticias {
+    width: 420px;
+}
+
+
   .copyright {
       margin-left: 45px;
   }
 
  
-  @media (max-width: 700px) {
+  @media (max-width: 480px) {
 
     .tarjetas {
         display: flex;
@@ -1104,6 +1126,118 @@ font: normal normal normal 16px/25px Roboto;
         
     }
 
+    .bricks-image {
+        display: none;
+    }
+
+    .caroussel {
+        margin-top: 350px;
+    }
+
+    .banner-principal .contenedor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #F2F2F2;  
+        height: 800px;     
+        
+    }
+
+    .video {
+        background-color: rgb(65, 65, 65);
+        width: 90%;
+        height: 200px;
+        margin-top: 10px;
+        border-radius: 20px;
+        margin-left: 0px;
+        
+    
+    }
+
+    .empresa-descripcion {
+        max-width: 100%;
+    }
+
+    .descripcion-larga {
+        max-width: 85%;
+    }
+
+    .sobre-nosotros .contenedor {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    
+       
+    }
+
+    
+
+    .tarjeta-contactos {
+        flex-direction: column;
+        height: 335px;
+        width: 100%;
+    }
+
+    .card-contacto {
+   
+        width: 400px;
+        height: 150px;
+        border-radius: 20px;
+        margin: 10px;
+        border: rgb(185, 185, 185) 1px dashed;
+        padding: 20px;
+        font-family: 'Poppins', sans-serif;
+      
+    }
+    
+
+    .elementos-noticias {
+        flex-direction: column;       
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10px auto auto;
+        width: 420px;
+      
+      
+    }
+    
+
+    .noticias-titulo {
+        margin-bottom: -30px;
+        
+    }
+
+    .ver-mas {
+        margin: 40px  auto auto;
+    
+    }
+
+    .dummy-noticias {
+        width: 120px;
+    }
+
+    .galeria-noticias {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .noticia1{
+
+        width: 400px;
+        height: 520px; 
+        margin-top: 80px;  
+        margin: 50px auto auto;     
+
+    }
+
+    .noticia1 img {
+        width: 100%;
+    }
        
 }
 
@@ -1113,16 +1247,11 @@ font: normal normal normal 16px/25px Roboto;
         margin-left: 0px;
     }
 
+   
+
     .empresa-descripcion {
         width: 500px;
         margin-left: 30px;
     }
      
-}
-
-@media (max-width: 500px) {
-    .caroussel {
-        margin-top: 60px;
-    }
-    
 }
