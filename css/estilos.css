@@ -879,7 +879,7 @@ textarea {
 
 
   .tarjeta-testimonio {      
-      width: 670px;
+      width: 680px;
       height: 200px;
       padding: 30px;
       margin-right: 20px;
@@ -917,6 +917,14 @@ textarea {
       min-width: 60px;
       object-fit:cover;
       border-radius: 100px;
+  }
+
+  .comentario {
+      font-weight: 300;
+  }
+
+  .nombre {
+      font-weight: 600;
   }
 
   .enviar-cv {
