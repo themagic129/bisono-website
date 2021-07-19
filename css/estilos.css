@@ -304,6 +304,13 @@ footer {
     }
 }
 
+.sociales-navbar {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
 .noticia3 {
     width: 425px;
     height: 250px;    
@@ -1022,6 +1029,14 @@ textarea {
    
 }
 
+.icono-social{ 
+   display: none;
+  
+}
+
+.btn-cotizar {
+    margin-left: -200px;
+}
 
     
 
