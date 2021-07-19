@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
     <link rel="stylesheet" href="css/flickity.css">
     <link rel="stylesheet" href="css/nosotros.css">
@@ -26,83 +26,89 @@
 
 </head>
 
-<body>
-<!--Barra de navegacion-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div>
+
+<nav class="navbar navbar-expand-lg navbar-light original" id="navbar">
 
     <div class="container-fluid">
         <a class="navbar-brand" href="index.html"><img src="img/logobisono.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link text-nowrap menu-activo" aria-current="page" href="nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link text-nowrap" href="productosyservicios.html">Productos y servicios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-nowrap" href="sostenibilidad.html">Sostenibilidad</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link text-nowrap" href="actualidad.html">Actualidad</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link text-nowrap" href="trabaja.html">Trabaja con nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link text-nowrap" href="contacto.html">Contacto</a>
-                        </li>
 
-        <li>
-            <div class="iconos-sociales">
-                <li class="nav-item-social">
-                    <a href="#">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-nowrap active" aria-current="page" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-nowrap" href="productosyservicios.html">Productos y servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-nowrap" href="sostenibilidad.html">Sostenibilidad</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-nowrap" href="actualidad.html">Actualidad</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-nowrap" href="trabaja.html">Trabaja con nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-nowrap" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item-social ms-4 mt-2 mt-lg-0  ">
+                    <a href="#" class="nav-link p-0 m-0 text-nowrap">
                         <div class="icono-social"><img src="img/Icon feather-instagram.svg" alt=""></div>
                     </a>
                 </li>
-                <li class="nav-item-social"><a href="#">
+                <li class="nav-item-social ms-4 mt-2 mt-lg-0 ms-lg-0">
+                    <a href="#" class="nav-link p-0 m-0 text-nowrap">
                         <div class="icono-social"><img src="img/Icon simple-facebook.svg" alt=""></div>
-                    </a></a>
-                <li class="nav-item-social"><a href="#">
+                    </a>
+                </li>
+
+                <li class="nav-item-social ms-4 mt-2 mt-lg-0 ms-lg-0">
+                    <a href="#" class="nav-link p-0 m-0 text-nowrap">
                         <div class="icono-social"><img src="img/Icon feather-youtube.svg" alt=""></div>
-                    </a></a>
-                    <div class="btn-cotizar text-nowrap">
-                        <a href="#"><span class="cantidad-cotizar">2</span> Cotizar</a>
+                    </a>
+                </li>
+                <li class="nav-item-social ms-3 ms-lg-0">
+                    <div class="btn-cotizar">
+                        <a href="#">
+                            <span class="cantidad-cotizar">2</span>
+                            Cotizar
+                        </a>
                     </div>
                 </li>
-                </div>
-                        </ul>
-                        </div>
-    </div>
-    </nav>
-
-
-    <div class="header">
-
-        <div class="contenedor">
-            <h3>Sobre nosotros</h3>
+            </ul>
         </div>
     </div>
+</nav>
 
-    <main>
-<!-- Seccion historia nosotros-->
-        <section class="historia">
-            <div class="contenedor">
-                <div class="collage">
-                    <img src="img/photo-collage.png" alt="">
+
+<div class="header">
+
+    <div class="contenedor">
+        <h3>Sobre nosotros</h3>
+    </div>
+</div>
+
+<main>
+    <section>
+        <div class="sobre-nosotros">
+            <div class="contenedor" style="max-width: 1124px">
+                <div class="contenedor-collage" style="flex-grow: 1">
+                    <img src="img/photo-collage.png" class="img-fluid" alt="">
                 </div>
 
-                <div class="nuestra-historia">
+                <div class="detalle-sobrenosotros" style="flex-grow: 2.5">
                     <h6 class="nosotros-titulo" style="font-size: 0.8em;">NUESTRA HISTORIA</h6>
-                    <p class="nosotros-descripcion">Lorem ipsum dolor, <br> conseing <span
+                    <p class="nosotros-descripcion">Lorem ipsum dolor,<br> conseing <span
                             style="font-weight: 800;">elitr,
-                            sed diam<span></span></p>
-                    <p class="historia-parrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta saepe,
+                        sed diam</span></p>
+                    <p class="nosotros-parrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta saepe,
                         tempore placeat nulla, perferendis maxime quaerat obcaecati pariatur culpa consequuntur ab
                         veniam quod nihil velit unde corrupti, ipsum enim doloribus.
                         Reprehenderit officia nesciunt ea dolores porro harum dolor ducimus nemo pariatur
@@ -110,326 +116,351 @@
                         blanditiis unde, quibusdam iste. Quidem?
                         Alias vel, veritatis deserunt minus suscipit neque consectetur sint iure, quia cupiditate earum
                         perspiciatis assumenda praesentium sit voluptate esse eveniet reiciendis quas libero dolor.
-                        Blanditiis vitae laborum laboriosam exercitationem ad.
+                        Blanditiis vitae laborum laboriosam exercitationem ad.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="mapa-historia">
+
+        <div class="contenedor">
+
+            <h6 class="inicio-map">Inicio</h6>
+
+        </div>
+
+        <div class="mapa">
+
+            <div class="info-group">
+                <div class="year">
+                    <h3>1982</h3>
+                </div>
+
+                <div class="circle"></div>
+
+                <div class="tarjeta">
+                    <div class="info">
+                        <div class="titulo">
+                            Fundacion
+                        </div>
+                        <div class="parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
+                            sapiente
+                            quos
+                            tempora laborum rem, possimus in expedita
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="info-group2">
+
+
+                <div class="tarjeta2">
+                    <div class="info2">
+                        <div class="titulo2">
+                            Fundacion
+                        </div>
+                        <div class="parrafo2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
+                            sapiente
+                            quos
+                            tempora laborum rem, possimus in expedita
+                        </div>
+                    </div>
+                </div>
+
+                <div class="circle2"></div>
+
+                <div class="year2">
+                    <h3>1982</h3>
+                </div>
+
+            </div>
+
+            <div class="info-group">
+                <div class="year">
+                    <h3>1982</h3>
+                </div>
+
+                <div class="circle"></div>
+
+                <div class="tarjeta">
+                    <div class="info">
+                        <div class="titulo">
+                            Fundacion
+                        </div>
+                        <div class="parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
+                            sapiente
+                            quos
+                            tempora laborum rem, possimus in expedita
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-group2">
+
+
+                <div class="tarjeta2">
+                    <div class="info2">
+                        <div class="titulo2">
+                            Fundacion
+                        </div>
+                        <div class="parrafo2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
+                            sapiente
+                            quos
+                            tempora laborum rem, possimus in expedita
+                        </div>
+                    </div>
+                </div>
+
+                <div class="circle2"></div>
+
+                <div class="year2">
+                    <h3>1982</h3>
+                </div>
+
+            </div>
+
+            <div class="info-group">
+                <div class="year">
+                    <h3>1982</h3>
+                </div>
+
+                <div class="circle"></div>
+
+                <div class="tarjeta">
+                    <div class="info">
+                        <div class="titulo">
+                            Fundacion
+                        </div>
+                        <div class="parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
+                            sapiente
+                            quos
+                            tempora laborum rem, possimus in expedita
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="circle-end"></div>
+        </div>
+
+
+    </section>
+
+    <!--Testimonios-->
+
+    <div class="testimonios">
+        <div class="contenedor">
+            <div class="img-bg"><img src="img/trazado17.svg" alt=""></div>
+            <div class="testimonios-titulos">
+                <h6 class="actualidad-titulo" style="font-size: 0.8em;">TESTIMONIOS</h6>
+                <h3>Explora las opiniones de clientes <br> que confían en nuestra calidad</h3></div>
+            <div class="img-bg"><img src="img/trazado17.svg" alt=""></div>
+
+        </div>
+
+        <div class="caja-testimonios">
+
+            <div class="tarjeta-testimonio">
+                <div class="comentario">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ad voluptate
+                    officia, quae optio cumque eligendi ratione.Minus ad voluptate officia, quae optio cumque eligendi
+                    ratione.
+                </div>
+
+                <div class="perfil-persona">
+                    <img src="img/reviewperson.jpg" alt="">
+
+                    <div class="datos">
+                        <h3 class="nombre">Rafael Aranda</h3>
+                        <p class="rol">Gerente general de la empresa.</p>
+
+                    </div>
+                    <img src="img/quotes.png" alt="" class="quotes d-none d-lg-block">
+                </div>
+            </div>
+
+
+            <div class="tarjeta-testimonio">
+                <div class="comentario">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ad voluptate
+                    officia, quae optio cumque eligendi ratione.Minus ad voluptate officia, quae optio cumque eligendi
+                    ratione.
+                </div>
+
+                <div class="perfil-persona">
+                    <img src="img/reviewperson.jpg" alt="">
+
+                    <div class="datos">
+                        <h3 class="nombre">Rafael Aranda</h3>
+                        <p class="rol">Gerente general de la empresa.</p>
+
+                    </div>
+                    <img src="img/quotes.png" alt="" class="quotes d-none d-lg-block">
+                </div>
+            </div>
+
+            <div class="tarjeta-testimonio">
+                <div class="comentario">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ad voluptate
+                    officia, quae optio cumque eligendi ratione.Minus ad voluptate officia, quae optio cumque eligendi
+                    ratione.
+                </div>
+
+                <div class="perfil-persona">
+                    <img src="img/reviewperson.jpg" alt="">
+
+                    <div class="datos">
+                        <h3 class="nombre">Rafael Aranda</h3>
+                        <p class="rol">Gerente general de la empresa.</p>
+
+                    </div>
+                    <img src="img/quotes.png" alt="" class="quotes d-none d-lg-block">
+                </div>
+            </div>
+
+            <div class="tarjeta-testimonio">
+                <div class="comentario">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ad voluptate
+                    officia, quae optio cumque eligendi ratione.Minus ad voluptate officia, quae optio cumque eligendi
+                    ratione.
+                </div>
+
+                <div class="perfil-persona">
+                    <img src="img/reviewperson.jpg" alt="">
+
+                    <div class="datos">
+                        <h3 class="nombre">Rafael Aranda</h3>
+                        <p class="rol">Gerente general de la empresa.</p>
+
+                    </div>
+                    <img src="img/quotes.png" alt="" class="quotes d-none d-lg-block">
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</main>
+</div>
+
+<footer>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="row">
+                    <div class="col">
+                        <img src="img/logobisono.png" alt="" class="img-fluid" style="width: 130px;margin-left: -16px;">
+                    </div>
+                    <div class="col">
+                        <ul class="list-unstyled d-flex align-items-center">
+                            <li><a href="#">
+                                <div class="prueba-social"><img src="img/Icon feather-instagram.svg" alt=""></div>
+                            </a></li>
+
+                            <li><a href="#">
+                                <div class="prueba-social"><img src="img/Icon simple-facebook.svg" alt=""></div>
+                            </a></li>
+
+                            <li><a href="#">
+                                <div class="prueba-social"><img src="img/Icon feather-youtube.svg" alt=""></div>
+                            </a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="texto-empresa">
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                        invidunt ut labore et dolore.
                     </p>
                 </div>
             </div>
-        </section>
-
-<section class="mapa-historia">
-
-    <div class="contenedor">
-
-        <h6 class="inicio-map">Inicio</h6>
-
-    </div>
-
-    <div class="mapa">
-
-        <div class="info-group">
-            <div class="year">
-                <h3>1982</h3>
-            </div>
-
-            <div class="circle"></div>
-
-            <div class="tarjeta">
-                <div class="info">
-                    <div class="titulo">
-                        Fundacion
-                    </div>
-                    <div class="parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto sapiente
-                        quos
-                        tempora laborum rem, possimus in expedita</div>
-                </div>
-            </div>
-        </div>
-<div class="info-group2">
-
-
-
-
-    <div class="tarjeta2">
-        <div class="info2">
-            <div class="titulo2">
-                Fundacion
-            </div>
-            <div class="parrafo2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto sapiente
-                quos
-                tempora laborum rem, possimus in expedita</div>
-        </div>
-    </div>
-
-    <div class="circle2"></div>
-
-    <div class="year2">
-        <h3>1982</h3>
-    </div>
-
-</div>
-
-<div class="info-group">
-    <div class="year">
-        <h3>1982</h3>
-    </div>
-
-    <div class="circle"></div>
-
-    <div class="tarjeta">
-        <div class="info">
-            <div class="titulo">
-                Fundacion
-            </div>
-            <div class="parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto sapiente
-                quos
-                tempora laborum rem, possimus in expedita</div>
-        </div>
-    </div>
-</div>
-
-<div class="info-group2">
-
-
-
-
-    <div class="tarjeta2">
-        <div class="info2">
-            <div class="titulo2">
-                Fundacion
-            </div>
-            <div class="parrafo2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto sapiente
-                quos
-                tempora laborum rem, possimus in expedita</div>
-        </div>
-    </div>
-
-    <div class="circle2"></div>
-
-    <div class="year2">
-        <h3>1982</h3>
-    </div>
-
-</div>
-
-<div class="info-group">
-    <div class="year">
-        <h3>1982</h3>
-    </div>
-
-    <div class="circle"></div>
-
-    <div class="tarjeta">
-        <div class="info">
-            <div class="titulo">
-                Fundacion
-            </div>
-            <div class="parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto sapiente
-                quos
-                tempora laborum rem, possimus in expedita</div>
-        </div>
-    </div>
-</div>
-
-<div class="circle-end"></div>
-    </div>
-
-
-</section>
-
-<!--Testimonios-->
-
-<div class="testimonios" style="margin-top: -100px; margin-bottom: 80px;">
-    <div class="contenedor">
-        <div class="img-bg"><img src="img/trazado17.svg" alt=""></div>
-        <div class="testimonios-titulos">
-            <h6 class="actualidad-titulo" style="font-size: 0.8em;">TESTIMONIOS</h6>
-            <h3>Explora las opiniones de clientes <br> que confían en nuestra calidad</h3>
-        </div>
-        <div class="img-bg"><img src="img/trazado17.svg" alt=""></div>
-
-    </div>
-
-    <div class="caja-testimonios">
-
-        <div class="tarjeta-testimonio">
-            <div class="comentario">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ad voluptate officia,
-                quae optio cumque eligendi ratione.Minus ad voluptate officia, quae optio cumque eligendi ratione.</div>
-
-            <div class="perfil-persona">
-                <img src="img/reviewperson.jpg" alt="">
-
-                <div class="datos">
-                    <h3 class="nombre">Rafael Aranda</h3>
-                    <p class="rol">Gerente general de la empresa.</p>
-
-                </div>
-                <img src="img/quotes.png" alt="" class="quotes">
-            </div>
-        </div>
-
-
-        <div class="tarjeta-testimonio">
-            <div class="comentario">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ad voluptate officia,
-                quae optio cumque eligendi ratione.Minus ad voluptate officia, quae optio cumque eligendi ratione.</div>
-
-            <div class="perfil-persona">
-                <img src="img/reviewperson.jpg" alt="">
-
-                <div class="datos">
-                    <h3 class="nombre">Rafael Aranda</h3>
-                    <p class="rol">Gerente general de la empresa.</p>
-
-                </div>
-                <img src="img/quotes.png" alt="" class="quotes">
-            </div>
-        </div>
-
-        <div class="tarjeta-testimonio">
-            <div class="comentario">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ad voluptate officia,
-                quae optio cumque eligendi ratione.Minus ad voluptate officia, quae optio cumque eligendi ratione.</div>
-
-            <div class="perfil-persona">
-                <img src="img/reviewperson.jpg" alt="">
-
-                <div class="datos">
-                    <h3 class="nombre">Rafael Aranda</h3>
-                    <p class="rol">Gerente general de la empresa.</p>
-
-                </div>
-                <img src="img/quotes.png" alt="" class="quotes">
-            </div>
-        </div>
-
-        <div class="tarjeta-testimonio">
-            <div class="comentario">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ad voluptate officia,
-                quae optio cumque eligendi ratione.Minus ad voluptate officia, quae optio cumque eligendi ratione.</div>
-
-            <div class="perfil-persona">
-                <img src="img/reviewperson.jpg" alt="">
-
-                <div class="datos">
-                    <h3 class="nombre">Rafael Aranda</h3>
-                    <p class="rol">Gerente general de la empresa.</p>
-
-                </div>
-                <img src="img/quotes.png" alt="" class="quotes">
-            </div>
-        </div>
-
-
-
-    </div>
-
-
-</div>
-
-    </main>
-
-
-
-
-    <footer>
-        <div class="contenedor">
-    
-            <div class="contenido">
-                <div class="descripcion-sociales">
-                    <img src="img/logobisono.png" alt="" class="logo-footer">
-                    <div class="redes-sociales">
-                        <ul>
-                            <li><a href="#">
-                                    <div class="prueba-social"><img src="img/Icon feather-instagram.svg" alt=""></div>
-                                </a></li>
-                            
-                            <li><a href="#">
-                                    <div class="prueba-social"><img src="img/Icon simple-facebook.svg" alt=""></div>
-                                </a></li>
-                            
-                            <li><a href="#">
-                                    <div class="prueba-social"><img src="img/Icon feather-youtube.svg" alt=""></div>
-                                </a></li>
-                        </ul>
-                        <div class="texto-empresa">
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.
-                            </p>
-                        </div>
-    
-                    </div>
-    
-                </div>
-    
+            <div class="col-lg-4">
                 <div class="menus-footer">
-    
-                    <ul>
-                        <li>
-                            <h6>Compañia</h6>
-                        </li>
-                        <li><a href="">Sobre nosotros</a></li>
-                        <li><a href="">Productos</a></li>
-                        <li><a href="">Contáctanos</a></li>
-                    </ul>
-    </a>
-                    <ul>
-                        <li>
-                            <h6>Más de nosotros</h6>
-                        </li>
-                        <li><a href="">Desarrollo sostenible</a></li>
-                        <li><a href="">Trabaja con nosotros</a></li>
-                        <li><a href="">Contáctanos</a></li>
-                    </ul>
-    
+                    <div class="row">
+                        <div class="col-6">
+                            <ul>
+                                <li>
+                                    <h6>Compañia</h6>
+                                </li>
+                                <li><a href="">Sobre nosotros</a></li>
+                                <li><a href="">Productos</a></li>
+                                <li><a href="">Contáctanos</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul>
+                                <li>
+                                    <h6>Más de nosotros</h6>
+                                </li>
+                                <li><a href="">Desarrollo sostenible</a></li>
+                                <li><a href="">Trabaja con nosotros</a></li>
+                                <li><a href="">Contáctanos</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
+            </div>
+            <div class="col-lg-4">
                 <div class="suscribirse-novedades">
                     <h6 class="titulo">Mantente al día</h6>
                     <p class="texto">Recibe actualizaciones sobre nuestras novedades</p>
-    
+
                     <form action="">
-                        <label for="correo">Correo electrónico</label>
-    
+                        <label for="">Correo electrónico</label>
+
                         <div class="campo-email">
                             <input type="email">
                             <button>Suscribirme</button>
-    
+
+
                         </div>
-    
+
                     </form>
                 </div>
-    
             </div>
         </div>
-    
-        <div class="copyright-info">
-    
-        
-                <div class="copyright">
-                <p>Copyright 2020 © All rights reserved</p>
-            </div>
-            
-    <div class="dummie" style="width: 10px;"></div>
-            <div class="disenado">
-                <p>Diseñado por <span style="font-weight:bold; color: black;">A.SMITH</p>
-            </div>
-    
-            <div class="dummie" style="width: 20px;"></div>
-            
-            <div class="slogan" style="margin-right: 5px;">
-                <p>Construimos el presente, sembramos el futuro</p>
-            </div>
-    
-        </div>
-    </footer>
-
-
     </div>
 
 
-    <script>
-        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-            return new bootstrap.Tooltip(tooltipTriggerEl)
-        })
-    </script>
 
-    <script src="js/bootstrap.min.js"></script>
+
+    <div class="copyright-info">
+
+
+        <div class="copyright">
+            <p>Copyright 2020 © All rights reserved</p>
+        </div>
+
+        <!--        <div class="dummie" style="width: 10px;"></div>-->
+
+        <div class="disenado">
+            <p>Diseñado por <span style="font-weight:bold; color: black;">A.SMITH</p>
+        </div>
+
+        <!--        <div class="dummie" style="width: 20px;"></div>-->
+
+        <div class="slogan" style="margin-right: 5px;">
+            <p>Construimos el presente, sembramos el futuro</p>
+        </div>
+
+
+    </div>
+</footer>
+
+
+
+<script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+</script>
+
+<script src="js/bootstrap.min.js"></script>
 
 </body>
 

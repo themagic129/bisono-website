@@ -31,7 +31,7 @@ textarea {
 .bloque-servicio {
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content:space-between;
     padding: 20px 20px 20px;
     color: white;
     border-radius: 15px;
@@ -48,7 +48,7 @@ textarea {
 .bloque-servicio2 {
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content:space-between;
     padding: 20px 20px 20px;
     color: white;
     border-radius: 15px;
@@ -65,7 +65,7 @@ textarea {
 .bloque-servicio3 {
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content: space-between;
     padding: 20px 20px 20px;
     color: white;
     border-radius: 15px;
@@ -79,23 +79,46 @@ textarea {
     
 }
 
+@media (max-width: 480px){
+    .bloque-servicio {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .bloque-servicio2 {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .bloque-servicio3 {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
 
 .bloque-servicio h3 {
     font-weight: 700;
     font-size: 1.5em;
-    margin-right: 120px;
 }
 
 .bloque-servicio2 h3 {
     font-weight: 700;
     font-size: 1.5em;
-    margin-right: 120px;
 }
 
 .bloque-servicio3 h3 {
     font-weight: 700;
     font-size: 1.5em;
-    margin-right: 120px;
 }
 
 .servicios {
@@ -109,7 +132,14 @@ textarea {
     align-items: center;
     width: 70%;
     margin-top: 50px;
- 
+
+}
+
+@media (max-width: 480px) {
+    .servicios .contenedor {
+        width: 100%;
+        padding: 0 15px;
+    }
 }
 
 .bloque-servicio img {
@@ -132,6 +162,7 @@ textarea {
 .catalogo .titulo {
    font-size: 1em;
    color: #919191;
+    padding: 0 15px;
 }
 
 .galeria {
@@ -150,7 +181,7 @@ textarea {
 
 .tarjeta-producto {
     height: 392px;
-    width: 312px;
+    width: 100%;
     background: white;
     box-shadow: 0px 0px 12px #0000000D;
     border-radius: 25px;
@@ -158,7 +189,8 @@ textarea {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 10px;    
+    padding: 10px;
+    margin-bottom: 16px;
 }
 
 .img-container {
@@ -226,9 +258,16 @@ textarea {
 
 .historia .contenedor{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: -50px;
+}
+
+@media (max-width: 480px) {
+    .historia .contenedor{
+        flex-direction: column;
+    }
 }
 
 .nuestra-historia {
@@ -336,6 +375,25 @@ margin-top: -80px;
     background-size: 220px;
     background-position-x: 200px;
     background-position-y: 20px;
+}
+
+
+@media (max-width: 480px) {
+    .info-group {
+        flex-wrap: wrap;
+        margin-left: 0;
+        margin-top: 20px;
+        padding: 0px 0px 180px;
+        width: 100%;
+    }
+
+    .info-group2 {
+        flex-wrap: wrap-reverse;
+        margin-left: 0;
+        margin-top: -280px;
+        padding: 120px 0px 120px;
+        width: 100%;
+    }
 }
 
 
@@ -467,6 +525,20 @@ margin-top: -80px;
     margin-top: -70px;
 }
 
+@media (max-width: 552px) {
+
+    .publicacion .contenedor {
+        margin-left: 0;
+        width: 98%;
+        height: auto;
+        background-color: rgb(255, 255, 255);
+        padding: 30px 30px 30px;
+        border-radius: 25px;
+        margin: 0 auto;
+        margin-top: -25px;
+    }
+}
+
 .publicacion img {
     width: 100%;
     border-radius: 25px;
@@ -490,16 +562,40 @@ margin-top: -80px;
 }
 
 .tarjeta-novedad2 img{
-    width: 390px;
+    width: 100%;
     border-radius: 20px;
 }
 
 .tarjeta-novedad2 {
-    width: 360px;
+    width: 100%;
     margin-right: 32px;
 }
 
 
+@media (max-width: 552px) {
+    .tarjeta-novedad img{
+        width: 97%;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+
+    .tarjeta-novedad {
+        width: 97%;
+        margin: 0 auto;
+    }
+
+    .tarjeta-novedad2 img{
+        width: 97%;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+
+    .tarjeta-novedad2 {
+        width: 97%;
+        margin: 0 auto;
+        margin-right: 0;
+    }
+}
 
 .novedades .titulo {
     font-weight: 600;
@@ -510,6 +606,7 @@ margin-top: -80px;
     border-left: #D31821 solid 3px;
     margin-left: 5px;
 }
+
 
 .titulo-noticia {
     margin-top: 40px;
@@ -524,13 +621,26 @@ margin-top: -80px;
     justify-content: center;
     align-items: center;
     margin-left: 360px;
-    
+}
+
+@media (max-width: 552px) {
+    .contenedor-principal {
+        flex-wrap: wrap;
+        margin-left: 0;
+    }
 }
 
 .novedades {
     margin-top: -5px;
     margin-left: 110px;
 
+}
+
+@media (max-width: 552px) {
+    .novedades {
+        margin-top: -5px;
+        margin-left: 0;
+    }
 }
 
 .verproductos {
@@ -568,15 +678,17 @@ a {
 /* Estilos Trabaja con nosotros */
 
 .formulario-contacto {
-display: flex;
+ display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 400px;
-    width:1492px;
+    height: auto;
+    width: 100%;
+    max-width: 1240px;
     background-color: white;
     margin-top: 50px;
+    padding: 75px 0;
     box-shadow: 0px -10px 10px #00000008;
     border-radius: 30px;
     background-image: url('../img/bloquestrabaja.png');
@@ -584,9 +696,15 @@ display: flex;
     background-size: 1500px;
     background-position-x: -5px;
     background-position-y: 10px;
-    
+
 }
 
+@media (max-width: 552px) {
+    .formulario-contacto {
+        margin-top: 50px;
+        padding: 75px 16;
+    }
+}
 
 .contenedor-trabaja {
 background: transparent linear-gradient(180deg, #ECECEC 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
@@ -598,12 +716,20 @@ align-items: center;
 .formulario-trabaja {
     display: flex;
     justify-content: left;
+    flex-wrap: wrap;
 }
 
 .campos-texto {
-    margin-right: 60px;
+    margin-right: 0;
+    width: 50%;
 }
 
+@media (max-width: 552px) {
+    .campos-texto {
+        width: 95%;
+        margin:  0 auto;
+    }
+}
 
 .formulario-contacto .titulo {
     font-family: 'Poppins', sans-serif;

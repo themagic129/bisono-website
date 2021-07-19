@@ -26,7 +26,7 @@
 
     <style>
         input[type="text"] {
-            width: 400px;
+            width: 100%;
             height: 35px;
         }
     </style>
@@ -34,105 +34,110 @@
 </head>
 
 <body>
-<!--Barra de navegacion-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light original" id="navbar">
 
     <div class="container-fluid">
         <a class="navbar-brand" href="index.html"><img src="img/logobisono.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
+<div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-nowrap active" aria-current="page" href="nosotros.html">Nosotros</a>
+                    </li>
                     <li class="nav-item">
-                        <a class="nav-link text-nowrap" aria-current="page" href="nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
                         <a class="nav-link text-nowrap" href="productosyservicios.html">Productos y servicios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-nowrap" href="sostenibilidad.html">Sostenibilidad</a>
-                        </li>
-                        <li class="nav-item">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-nowrap" href="sostenibilidad.html">Sostenibilidad</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link text-nowrap" href="actualidad.html">Actualidad</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link text-nowrap  menu-activo" href="trabaja.html">Trabaja con nosotros</a>
-                        </li>
-                        <li class="nav-item">
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-nowrap" href="trabaja.html">Trabaja con nosotros</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link text-nowrap" href="contacto.html">Contacto</a>
-                        </li>
-
-        <li>
-            <div class="iconos-sociales">
-                <li class="nav-item-social">
-                    <a href="#">
+                    </li>
+                <li class="nav-item-social ms-4 mt-2 mt-lg-0  ">
+                    <a href="#" class="nav-link p-0 m-0 text-nowrap">
                         <div class="icono-social"><img src="img/Icon feather-instagram.svg" alt=""></div>
                     </a>
                 </li>
-                <li class="nav-item-social"><a href="#">
+                <li class="nav-item-social ms-4 mt-2 mt-lg-0 ms-lg-0">
+                    <a href="#" class="nav-link p-0 m-0 text-nowrap">
                         <div class="icono-social"><img src="img/Icon simple-facebook.svg" alt=""></div>
-                    </a></a>
-                <li class="nav-item-social"><a href="#">
+                    </a>
+                    </li>
+                    
+                    <li class="nav-item-social ms-4 mt-2 mt-lg-0 ms-lg-0">
+                        <a href="#" class="nav-link p-0 m-0 text-nowrap">
                         <div class="icono-social"><img src="img/Icon feather-youtube.svg" alt=""></div>
-                    </a></a>
-                    <div class="btn-cotizar text-nowrap">
-                        <a href="#"><span class="cantidad-cotizar">2</span> Cotizar</a>
+                    </a>
+                </li>
+                <li class="nav-item-social ms-3 ms-lg-0">
+                    <div class="btn-cotizar">
+                        <a href="#">
+                            <span class="cantidad-cotizar">2</span>
+                            Cotizar
+                        </a>
                     </div>
                 </li>
-                </div>
-                </ul>
+            </ul>
         </div>
-    
     </div>
-    </nav>
+</nav>
 
 
 
-    </div>
 
     <main>
+<div class="container-fluid overflow-hidden">
+
         <div class="contenedor-trabaja">
 
             <div class="formulario-contacto">
 
-                <div class="titulo" style="margin-top: 280px;">Únete a nuestro equipo</div>
+                <div class="titulo" style="">Únete a nuestro equipo</div>
                 <p class="texto-envia">Envía tu CV junto a una descripción de tu experiencia y habilidades, nuestro
                     equipo se pondrá en contacto contigo</p>
 
-                <form action="" class="formulario-trabaja">
+                <form action="" class="row col-md-10">
 
-                    <div class="campos-texto">
-                        <label for="nombre" style="display: block; margin-left: -275px; ">Nombre completo</label>
-                        <input type="text" id="nombre">
+                    <div class="col-lg-6">
+                        <div class="px-2 text-left">
+                            <label for="nombre" style="display: block; ">Nombre completo</label>
+                            <input type="text" id="nombre">
 
-                        <label for="nombre" style="display: block; margin-left: -275px;">Nombre completo</label>
-                        <input type="text" id="nombre">
+                            <label for="nombre" style="display: block; ">Nombre completo</label>
+                            <input type="text" id="nombre">
 
-                        <label for="nombre" style="display: block; margin-left: -275px;">Nombre completo</label>
-                        <input type="text" id="nombre">
-
-
+                            <label for="nombre" style="display: block;">Nombre completo</label>
+                            <input type="text" id="nombre">
+                        </div>
                     </div>
 
-                    <div class="caja-texto">
-                        <label for="msg" style="display: block; margin-left: -410px;">Mensaje</label>
-                        <textarea name="mensaje" id="msg" cols="50" rows="4"
-                            style="border-radius: 10px; border: grey solid 0.5px; border: solid rgb(206, 206, 206) 0.2px;     box-shadow: 0 2px 2px 0 rgba(196, 196, 196, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+                    <div class="col-lg-6">
+                        <div class=" text-left">
+                            <label for="msg" style="display: block;">Mensaje</label>
+                            <textarea name="mensaje" id="msg" class="w-100" rows="4"
+                                style="border-radius: 10px; border: grey solid 0.5px; border: solid rgb(206, 206, 206) 0.2px;     box-shadow: 0 2px 2px 0 rgba(196, 196, 196, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         "></textarea>
-                        <div class="cargar-cv">
+                            <div class="cargar-cv">
 
-                            <div class="titulos-carga">
-                                <h3 class="titulo-cargar">Arrastra y suelta aqui tu CV</h3>
-                                <p class="texto-cargar">Se admiten los formatos PDF o DOCX</p>
-                            </div>
+                                <div class="titulos-carga">
+                                    <h3 class="titulo-cargar">Arrastra y suelta aqui tu CV</h3>
+                                    <p class="texto-cargar">Se admiten los formatos PDF o DOCX</p>
+                                </div>
 
-                            <div class="boton-carga">
-                                <div class="btn-enviarcv text-nowrap"><a href="#">Click para explorar</a></div>
-                            </div>
+                                <div class="boton-carga">
+                                    <div class="btn-enviarcv text-nowrap"><a href="#">Click para explorar</a></div>
+                                </div>
+                                </div>
                         </div>
                         
                     </div>
@@ -157,106 +162,114 @@
 
 
 
-        </div>
 
 
 
 
 
     </main>
+</div>
+
+<!--Footer-->
+<div class="container">
+    <div class="row">
+        <div class="col col-md-4">
+            <div class="descripcion-sociales">
+                <img src="img/logobisono.png" alt="" class="logo-footer">
 
 
+            <div class="redes-sociales">
+                <ul>
+                    <li><a href="#">
+                            <div class="prueba-social"><img src="img/Icon feather-instagram.svg" alt=""></div>
+                        </a></li>
+            
+                    <li><a href="#">
+                            <div class="prueba-social"><img src="img/Icon simple-facebook.svg" alt=""></div>
+                        </a></li>
+                    
+                    <li><a href="#">
+                            <div class="prueba-social"><img src="img/Icon feather-youtube.svg" alt=""></div>
+                        </a></li>
 
-
-    <footer>
-        <div class="contenedor" style="margin-top: 200px;">
-            <div class="contenido">
-                <div class="descripcion-sociales">
-                    <img src="img/logobisono.png" alt="" class="logo-footer">
-                    <div class="redes-sociales">
-                        <ul>
-                            <li><a href="#">
-                                    <div class="prueba-social"><img src="img/Icon feather-instagram.svg" alt=""></div>
-                                </a></li>
-                            <li><a href="#">
-                                    <div class="prueba-social"><img src="img/Icon simple-facebook.svg" alt=""></div>
-                                </a></li>
-                            <li><a href="#">
-                                    <div class="prueba-social"><img src="img/Icon feather-youtube.svg" alt=""></div>
-                                </a></li>
-                        </ul>
-                        <div class="texto-empresa">
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.
-                            </p>
-                        </div>
-    
+                </ul>
+                <div class="texto-empresa">
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                        dolore.
+                    </p>
                     </div>
+                    </div>
+                    </div>
+    </div>
+    <div class="col col-md-5">
+        <div class="menus-footer">
     
-                </div>
+            <ul>
+                <li>
+                    <h6>Compañia</h6>
+                </li>
+                <li><a href="">Sobre nosotros</a></li>
+                <li><a href="">Productos</a></li>
+                <li><a href="">Contáctanos</a></li>
+            </ul>
+            </a>
+            <ul>
+                <li>
+                    <h6>Más de nosotros</h6>
+                </li>
+                <li><a href="">Desarrollo sostenible</a></li>
+                <li><a href="">Trabaja con nosotros</a></li>
+                <li><a href="">Contáctanos</a></li>
+            </ul>
     
-                <div class="menus-footer">
-    
-                    <ul>
-                        <li>
-                            <h6>Compañia</h6>
-                        </li>
-                        <li><a href="">Sobre nosotros</a></li>
-                        <li><a href="">Productos</a></li>
-                        <li><a href="">Contáctanos</a></li>
-                    </ul>
-    </a>
-                    <ul>
-                        <li>
-                            <h6>Más de nosotros</h6>
-                        </li>
-                        <li><a href="">Desarrollo sostenible</a></li>
-                        <li><a href="">Trabaja con nosotros</a></li>
-                        <li><a href="">Contáctanos</a></li>
-                    </ul>
-    
-                </div>
-                <div class="suscribirse-novedades">
-                    <h6 class="titulo">Mantente al día</h6>
-                    <p class="texto">Recibe actualizaciones sobre nuestras novedades</p>
-    
-                    <form action="">
-                        <label for="correo">Correo electrónico</label>
-    
-                        <div class="campo-email">
-                            <input type="email">
-                            <button>Suscribirme</button>
-    
-                        </div>
-    
-                    </form>
-                </div>
-    
-            </div>
         </div>
-    
-        <div class="copyright-info">
-    
+</div>
+
+
+<div class="col col-md-3 mt-3">
+        <div class="suscribirse-novedades">
+            <h6 class="titulo">Mantente al día</h6>
+            <p class="texto">Recibe actualizaciones sobre nuestras novedades</p>
         
-                <div class="copyright">
-                <p>Copyright 2020 © All rights reserved</p>
-            </div>
-            
-    <div class="dummie" style="width: 10px;"></div>
-            <div class="disenado">
-                <p>Diseñado por <span style="font-weight:bold; color: black;">A.SMITH</p>
-            </div>
-    
-            <div class="dummie" style="width: 20px;"></div>
-            
-            <div class="slogan" style="margin-right: 5px;">
-                <p>Construimos el presente, sembramos el futuro</p>
-            </div>
-    
-        </div>
-    </footer>
+            <form action="">
+                <label for="correo">Correo electrónico</label>
+        
+                <div class="campo-email">
+                    <input type="email">
+                    <button>Suscribirme</button>
+
+
+                </div>
+                
+                </form>
+                </div>
 
 
     </div>
+    </div>
+
+        </div>
+
+        <div class="copyright-info">
+            <div class="container">
+                <div class="row mx-auto">
+                    <div class="col-md-5 col-sm-12">
+                        <p>Copyright 2020 © All rights reserved</p>
+                    </div>
+                <div class="col-md-4 col-sm-12">
+        
+                    <p>Diseñado por <span style="font-weight:bold; color: black;">A.SMITH</p>
+                    </div>
+                <div class="col-md-3 col-sm-12 col-sm-12 text-nowrap">
+                    <p>Construimos el presente, sembramos el futuro</p>
+                </div>
+                
+                </div>
+                </div>
+                </div>
+
+
+</div>
 
 
     <script>
