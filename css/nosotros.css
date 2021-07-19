@@ -9,6 +9,11 @@ body {
 
 textarea {
     resize: none !important;
+   
+    width: 270px;
+    height: 125px;
+  
+ 
   }
 
 .header {
@@ -24,9 +29,9 @@ textarea {
     background-position-y: 10;
     background-position-x: -400px;
     font-family: 'Poppins', sans-serif;
-
+   
+ 
 }
-
 
 .bloque-servicio {
     display: flex;
@@ -103,6 +108,8 @@ textarea {
         margin-right: 10px;
         margin-left: 10px;
     }
+
+    
 }
 
 
@@ -475,6 +482,8 @@ margin-top: -80px;
 
 }
 
+
+
 @media (max-width: 800px){
    .servicios .contenedor {
        flex-direction: column;
@@ -767,7 +776,7 @@ padding: 10px;
 
 .titulo-cargar {
     font-family: 'Poppins', sans-serif;
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: 600;
     margin-top: 15px;
     color: #627178;

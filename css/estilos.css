@@ -311,6 +311,8 @@ footer {
     align-items: center;
 }
 
+
+
 .noticia3 {
     width: 425px;
     height: 250px;    
@@ -1001,7 +1003,23 @@ textarea {
         margin: 0 !important;
     }
     .caja-texto textarea {
-        width: 200px;
+        width: 100%;
+        
+    }
+
+    .text-left {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .contenedor-contactos {
+        display: flex;       
+        justify-content: center;
+       
+        
     }
 
     
